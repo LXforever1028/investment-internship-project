@@ -146,7 +146,7 @@ if __name__ == "__main__":
     plt.ylabel("Portfolio Value ($)")
     plt.legend()
     plt.tight_layout()
-    #plt.savefig("qqq_strategy_equity.png", dpi=150)
+    #plt.savefig("qqq_strategy_equity.png")
     plt.show()
 
     plt.figure(figsize=(10,6))
@@ -157,6 +157,6 @@ if __name__ == "__main__":
     plt.ylabel("Drawdown (fraction)")
     plt.legend()
     plt.tight_layout()
-    #plt.savefig("qqq_strategy_drawdowns.png", dpi=150)
+    #plt.savefig("qqq_strategy_drawdowns.png")
     plt.show()
 
